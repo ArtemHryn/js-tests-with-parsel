@@ -1,5 +1,6 @@
-import colorCardTemplate from '../templates/color-card.hbs';
 import '../css/common.css';
+import colorCardTemplate from '../templates/color-card.hbs';
+import colorCardEachTemplate from '../templates/color-cards-each.hbs';
 import colorsJSON from './color.json';
 
 console.log(colorCardTemplate(colorsJSON[1]));
@@ -27,7 +28,8 @@ palleteContainer.insertAdjacentHTML('beforeend', createColorMarkup(colorsJSON));
 palleteContainer.addEventListener('click', onPalletteContainerClick);
 
 function createColorMarkup(colors) {
-  const markup = colors.map(color => colorCardTemplate(color)).join('');
+  //   const markup = colors.map(color => colorCardTemplate(color)).join('');
+  const markup = colorCardEachTemplate(colors);
   return markup;
 }
 
