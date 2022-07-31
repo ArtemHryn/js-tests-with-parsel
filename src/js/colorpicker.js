@@ -1,4 +1,5 @@
 import '../css/common.css';
+import '../css/colorpicker.css'
 import colorCardTemplate from '../templates/color-card.hbs';
 import colorCardEachTemplate from '../templates/color-cards-each.hbs';
 import colorsJSON from './color.json';
@@ -24,6 +25,7 @@ console.log(colorCardTemplate(colorsJSON[1]));
 const palleteContainer = document.querySelector('.js-palette');
 
 palleteContainer.insertAdjacentHTML('beforeend', createColorMarkup(colorsJSON));
+console.log(createColorMarkup(colorsJSON));
 
 palleteContainer.addEventListener('click', onPalletteContainerClick);
 
