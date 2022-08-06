@@ -5,7 +5,7 @@
   "homepage": "https://ArtemHryn.github.io/js-tests-with-parsel",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /js-tests-with-parsel/"
   },
   "repository": {
