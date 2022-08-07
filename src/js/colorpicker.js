@@ -1,5 +1,5 @@
-import '../css/common.css';
-import '../css/colorpicker.css'
+import '../css/common.scss';
+import '../css/colorpicker.scss'
 import colorCardTemplate from '../templates/color-card.hbs';
 import colorCardEachTemplate from '../templates/color-cards-each.hbs';
 import colorsJSON from './color.json';

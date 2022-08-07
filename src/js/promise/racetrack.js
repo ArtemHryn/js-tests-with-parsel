@@ -1,4 +1,4 @@
-import '../../css/racetrack.css';
+import '../../css/racetrack.scss';
 
 const horses = [
   'Secretariat',

@@ -1,5 +1,5 @@
-import '../css/common.css';
-import '../css/gallery.css';
+import '../css/common.scss';
+import '../css/gallery.scss';
 import galleryCountriesTemp from '../templates/gallery.hbs';
 import galleryFlags from './countries.json';
 

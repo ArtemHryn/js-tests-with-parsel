@@ -1,4 +1,4 @@
-import '../../css/common.css';
+import '../../css/common.scss';
 
 const refs = {
   startBtn: document.querySelector('[data-action-start]'),

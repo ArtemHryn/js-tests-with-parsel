@@ -1,4 +1,4 @@
-import '../../css/common.css'
+import '../../css/common.scss'
 
 const notification = document.querySelector('.js-alert');
 const NOTIFICATON_DELAY = 3000

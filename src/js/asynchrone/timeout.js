@@ -1,4 +1,4 @@
-import '../../css/common.css';
+import '../../css/common.scss';
 
 // console.log('Before Timeout');
 

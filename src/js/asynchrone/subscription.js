@@ -1,4 +1,4 @@
-import '../../css/common.css';
+import '../../css/common.scss';
 import BSN from 'bootstrap.native';
 
 const refs = {
