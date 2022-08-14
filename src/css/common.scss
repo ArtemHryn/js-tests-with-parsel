@@ -10,6 +10,9 @@ body {
   line-height: 1.5;
   color: #2a2a2a;
   padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 button,
@@ -164,4 +167,19 @@ img {
 .articles a {
   text-decoration: none;
   color: #2a2a2a;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  display: block;
+}
+a {
+  text-align: center;
+}
+
+.topic_box {
+  margin: 15px;
 }

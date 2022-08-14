@@ -6,7 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /js-tests-with-parsel/"
+    "build": "parcel build src/*.html --public-url /js-tests-with-parsel/",
+    "server": "json-server --watch db.json -d 1000"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "cssnano": "^4.1.11",
+    "json-server": "^0.17.0",
     "parcel": "^2.6.0",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
